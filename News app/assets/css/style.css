@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+nav ul a {
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul li {
+  padding-inline: 4px;
+}
+aside {
+  background-color: #2c3034;
+  padding-top: 70px;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+aside a {
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+}
+.active {
+  background-color: #5356ff;
+  color: #fff;
+  font-weight: 700;
+}
+main {
+  padding-top: 70px;
+  width: calc(100%-200px);
+  margin-left: 200px;
+}
